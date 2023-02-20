@@ -2,13 +2,13 @@
 <html>
 <head>
 	<title>Coming Soon</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 	<style>
 		body {
 			background: linear-gradient(135deg, #282D35, #1C1E22, #0F1012);
-			color: #FFFFFF;
-			font-family: 'Montserrat', sans-serif;
-			font-size: 24px;
+			color: #fff;
+			font: 2.5vw/1.5 'Montserrat', sans-serif;
 			text-align: center;
 			display: flex;
 			flex-direction: column;
@@ -17,9 +17,28 @@
 			height: 100vh;
 			margin: 0;
 		}
+		
 		h1 {
-			font-size: 48px;
+			font-size: 6vw;
 			margin-bottom: 20px;
+		}
+		
+		@media screen and (min-width: 1200px) {
+			body {
+				font-size: 1.25vw;
+			}
+			h1 {
+				font-size: 3.5vw;
+			}
+		}
+		
+		@media screen and (min-width: 1600px) {
+			body {
+				font-size: 1vw;
+			}
+			h1 {
+				font-size: 2.5vw;
+			}
 		}
 	</style>
 </head>
